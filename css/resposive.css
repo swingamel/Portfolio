@@ -103,7 +103,8 @@
     #projet h1,
     #contact h1,
     #certif h1,
-    #stages h1 {
+    #stages h1,
+    #veille h1 {
         font-size: 2rem;
     }
     #presentation div p {
@@ -132,7 +133,8 @@
     #outils .fa,
     #projet .fa,
     #certif .fa,
-    #stages .fa {
+    #stages .fa,
+    #veille .fa {
         width: 100%;
     }
     #competence .left-float,
