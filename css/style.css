@@ -51,6 +51,16 @@
     border-radius: 100px;
 }
 
+#veille img {
+    width: 70%;
+    z-index: 2;
+}
+
+#veilles img {
+    width: 2%;
+    z-index: 2;
+}
+
 nav {
     display: inline-block;
     line-height: 20px;
@@ -285,7 +295,8 @@ nav {
 #outils h1,
 #projet h1,
 #certif h1,
-#stages h1 {
+#stages h1,
+#veille h1 {
     padding-bottom: 20px;
     font-weight: 700;
 }
@@ -381,9 +392,16 @@ nav {
 
 .cadre .s-title {
     font-size: 1.4rem;
+    text-align: center;
+    padding: .4rem 0;
+}
+
+.cadre .s_veille {
+    font-size: 1.4rem;
     text-transform: uppercase;
     text-align: center;
     padding: .4rem 0;
+    color: #be1e1e
 }
 
 .cadre .s-description {
@@ -402,6 +420,20 @@ nav {
 }
 
 #projet .fa-laptop {
+    text-align: center;
+    font-size: 5rem;
+    color: #EE4437;
+}
+
+#veille {
+    background: #ffb53d;
+    min-height: 60vh;
+    color: #ffffff;
+    text-align: center;
+    padding: 75px 0 90px;
+}
+
+#veille .fa-laptop {
     text-align: center;
     font-size: 5rem;
     color: #EE4437;
@@ -793,6 +825,18 @@ button:hover:active:after,
 }
 
 .logo {
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+.veilles {
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+.veille {
     display: block;
     width: 100px;
     margin: auto;
