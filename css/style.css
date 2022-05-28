@@ -868,3 +868,12 @@ button:hover:active:after,
     margin-right: 0;
     font-size: 3em;
 }
+.reseaux .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    transition: all 500ms ease;
+}
