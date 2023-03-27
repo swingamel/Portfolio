@@ -52,7 +52,6 @@
 }
 
 #veille img {
-    width: 70%;
     z-index: 2;
 }
 
@@ -281,6 +280,61 @@ nav {
     font-weight: 100;
 }
 
+.containereee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.button3 {
+    padding: 15px 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin: 1em;
+    font-size: 13px;
+}
+
+.button3:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (min-width: 417px) and (max-width: 567px) {
+    .button3 {
+        padding: 15px 30px;
+        color: white;
+        text-decoration: none
+    }
+}
+
+@media (min-width: 568px) {
+    .button3 {
+        padding: 15px 50px;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+.button3 {
+	color: white;
+    background: linear-gradient(to right, #8d43b6 , #0d1e4c);
+	border-radius: 8px;
+	transition: .2s ease-in-out;
+}
+
+.button3:hover {
+	border-radius: 30px;
+}
 
 /************* OUTILS *************/
 
@@ -426,7 +480,7 @@ nav {
 }
 
 #veille {
-    background: #ffb53d;
+    background: #ff9b28;
     min-height: 60vh;
     color: #ffffff;
     text-align: center;
